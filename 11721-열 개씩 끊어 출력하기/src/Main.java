@@ -12,12 +12,6 @@ public class Main {
 			index += 10;
 		}
 		System.out.println(temp.substring(index, length));
-
-		/*
-		 * while (true) { if (index+10 >= length) {
-		 * System.out.println(temp.substring(index, length)); break; } else
-		 * System.out.println(temp.substring(index, index + 10)); index += 10; }
-		 */
 		S.close();
 
 	}
