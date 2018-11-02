@@ -17,8 +17,8 @@ public class Main {
 			if (temp < 10)
 				temp = temp * 10 + temp;
 			else {
-				temp = temp % 10 * 10 + ((temp / 10 + temp % 10)%10);
-			}			
+				temp = temp % 10 * 10 + ((temp / 10 + temp % 10) % 10);
+			}
 			count++;
 			if (n == temp)
 				break;
