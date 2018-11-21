@@ -123,7 +123,6 @@ public class Main {
 				}
 				p = p*2+1;
 				
-				
 				//writer.write("\n");
 				// writer.write("*\n* *\n*****\n");
 			}

@@ -11,6 +11,7 @@ public class Main {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 
+		System.out.println("dd");
 		boolean isPrime[] = new boolean[10001];
 		Arrays.fill(isPrime, true);
 		isPrime[0] = isPrime[1] = false;

@@ -1,4 +1,4 @@
-package ��ݱװ�;
+package 방금그곡;
 
 public class Solution {
 	class MusicData {
