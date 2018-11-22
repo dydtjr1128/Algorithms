@@ -1,145 +1,76 @@
-
-/*import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-
-public class Main {
-	static BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
-	static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-	public static void drawCaseStar(int n) {
-		
-	}
-	public static void drawStar(int n) {
-		try {
-			int p = 5, q = 5;
-			for (int i = 0; i < n; i++) {
-
-				for (int j = 0; j < n - i - 1; j++) {
-					writer.write(" ");
-				}
-				switch (i % 6) {
-				case 0:
-					writer.write("*");
-					break;
-				case 1:
-					writer.write("* *");
-					break;
-				case 2:
-					writer.write("*****");
-					break;
-				case 3:case 4:case 5:
-					switch (i % 3) {
-					case 0:
-						writer.write("*");
-						break;
-					case 1:
-						writer.write("* *");
-						break;
-					case 2:
-						writer.write("*****");
-						break;
-					}
-					for (int j = 0; j < q; j++) {
-						writer.write(" ");
-					}
-					q -= 2;
-					if (q == 0) {
-						p *= 2;
-						p++;
-						q = p;
-					}
-					switch (i % 3) {
-					case 0:
-						writer.write("*");
-						break;
-					case 1:
-						writer.write("* *");
-						break;
-					case 2:
-						writer.write("*****");
-						break;
-					}
-
-				}
-			
-				writer.write("\n");
-				// writer.write("*\n* *\n*****\n");
-			}
-
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-	}
-
-	public static void main(String[] args) throws NumberFormatException, IOException {
-
-		int n = Integer.parseInt(reader.readLine());
-		drawStar(n);
-		writer.flush();
-		writer.close();
-
-	}
-}
-//3*2 = 6
-//3*4 = 12
-//3*8 = 24
-//3*16 = 48*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 
 public class Main {
-	static BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
-	static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    static BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
+    static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-	public static void drawCaseStar(int n) {
 
-	}
+    public static void drawStar(int n) {
+        String triangle[] = new String[3];
+        triangle[0] = "*";
+        triangle[1] = "* *";
+        triangle[2] = "*****";
+        try {
+            int space = 5;
+            int spaceTemp = 5;
 
-	public static void drawStar(int n) {
-		try {
-			int p = 2, q = 2;
-			for (int i = 0; i < n; i++) {
-				for (int j = 0; j < n - i - 1; j++) {
-					writer.write(" ");
-				}
-				switch (i % 3) {
-				case 0:
-					writer.write("*");
-					break;
-				case 1:
-					writer.write("* *");
-					break;
-				case 2:
-					writer.write("*****");
-					break;
-				}
-				p = p*2+1;
-				
-				//writer.write("\n");
-				// writer.write("*\n* *\n*****\n");
-			}
+            double k = Math.log(n / 3) / Math.log(2);
+            String array[] = new String[n];
+            int arrayIndex = 3;
+            StringBuilder builder = new StringBuilder();
 
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+            array[0] = triangle[0];
+            array[1] = triangle[1];
+            array[2] = triangle[2];
 
-	}
+            for (int i = 0; i < k; i++) {//반복 횟수
+                int size = arrayIndex;
+                for (int j = 0; j < size; j++) {
+                    String t = array[j];
+                    builder.setLength(0);//Clear builder
+                    builder.append(t);
+                    for (int q = 0; q < space; q++)
+                        builder.append(" ");
+                    space -= 2;
+                    builder.append(t);
+                    array[arrayIndex++] = builder.toString();
+                }
+                space = spaceTemp * 2 + 1;
+                spaceTemp = space;
+            }
 
-	public static void main(String[] args) throws NumberFormatException, IOException {
+            builder.setLength(0);
+            n--;
+            for (int i = 0; i < arrayIndex; i++, --n) {
+                for (int j = 0; j < n; j++)
+                    builder.append(" ");
+                builder.append(array[i]);
+                for (int j = 0; j < n; j++)
+                    builder.append(" ");
+                if(i<arrayIndex-1)
+                    builder.append("\n");
+            }
+            writer.write(builder.toString());
 
-		int n = Integer.parseInt(reader.readLine());
-		drawStar(n);
-		writer.flush();
-		writer.close();
 
-	}
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void main(String[] args) throws NumberFormatException, IOException {
+
+        int n = Integer.parseInt(reader.readLine());
+        drawStar(n);
+        writer.flush();
+        writer.close();
+
+    }
 }
