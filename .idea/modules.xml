@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/1065-한수/1065-한수.iml" filepath="$PROJECT_DIR$/1065-한수/1065-한수.iml" />
       <module fileurl="file://$PROJECT_DIR$/10809-알파벳 찾기/10809-알파벳 찾기.iml" filepath="$PROJECT_DIR$/10809-알파벳 찾기/10809-알파벳 찾기.iml" />
       <module fileurl="file://$PROJECT_DIR$/10817-세 수/10817-세 수.iml" filepath="$PROJECT_DIR$/10817-세 수/10817-세 수.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10828-스택/10828-스택.iml" filepath="$PROJECT_DIR$/10828-스택/10828-스택.iml" />
       <module fileurl="file://$PROJECT_DIR$/10869-사칙연산/10869-사칙연산.iml" filepath="$PROJECT_DIR$/10869-사칙연산/10869-사칙연산.iml" />
       <module fileurl="file://$PROJECT_DIR$/10871-X보다 작은수/10871-X보다 작은수.iml" filepath="$PROJECT_DIR$/10871-X보다 작은수/10871-X보다 작은수.iml" />
       <module fileurl="file://$PROJECT_DIR$/10998-AxB/10998-AxB.iml" filepath="$PROJECT_DIR$/10998-AxB/10998-AxB.iml" />
@@ -28,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/1475-방 번호/1475-방 번호.iml" filepath="$PROJECT_DIR$/1475-방 번호/1475-방 번호.iml" />
       <module fileurl="file://$PROJECT_DIR$/1546-평균/1546-평균.iml" filepath="$PROJECT_DIR$/1546-평균/1546-평균.iml" />
       <module fileurl="file://$PROJECT_DIR$/15552-빠른 A+B/15552-빠른 A+B.iml" filepath="$PROJECT_DIR$/15552-빠른 A+B/15552-빠른 A+B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1874-스택수열/1874-스택수열.iml" filepath="$PROJECT_DIR$/1874-스택수열/1874-스택수열.iml" />
       <module fileurl="file://$PROJECT_DIR$/1924-2007년/1924-2007년.iml" filepath="$PROJECT_DIR$/1924-2007년/1924-2007년.iml" />
       <module fileurl="file://$PROJECT_DIR$/1929-소수 구하기/1929-소수 구하기.iml" filepath="$PROJECT_DIR$/1929-소수 구하기/1929-소수 구하기.iml" />
       <module fileurl="file://$PROJECT_DIR$/1934-최소공배수/1934-최소공배수.iml" filepath="$PROJECT_DIR$/1934-최소공배수/1934-최소공배수.iml" />
