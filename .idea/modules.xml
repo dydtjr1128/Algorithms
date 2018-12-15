@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/1546-평균/1546-평균.iml" filepath="$PROJECT_DIR$/1546-평균/1546-평균.iml" />
       <module fileurl="file://$PROJECT_DIR$/15552-빠른 A+B/15552-빠른 A+B.iml" filepath="$PROJECT_DIR$/15552-빠른 A+B/15552-빠른 A+B.iml" />
       <module fileurl="file://$PROJECT_DIR$/1874-스택수열/1874-스택수열.iml" filepath="$PROJECT_DIR$/1874-스택수열/1874-스택수열.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1874-스택수열(2)/1874-스택수열(2).iml" filepath="$PROJECT_DIR$/1874-스택수열(2)/1874-스택수열(2).iml" />
       <module fileurl="file://$PROJECT_DIR$/1924-2007년/1924-2007년.iml" filepath="$PROJECT_DIR$/1924-2007년/1924-2007년.iml" />
       <module fileurl="file://$PROJECT_DIR$/1929-소수 구하기/1929-소수 구하기.iml" filepath="$PROJECT_DIR$/1929-소수 구하기/1929-소수 구하기.iml" />
       <module fileurl="file://$PROJECT_DIR$/1934-최소공배수/1934-최소공배수.iml" filepath="$PROJECT_DIR$/1934-최소공배수/1934-최소공배수.iml" />
@@ -41,6 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/2440-별찍기-3/2440-별찍기-3.iml" filepath="$PROJECT_DIR$/2440-별찍기-3/2440-별찍기-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/2441-별찍기-4/2441-별찍기-4.iml" filepath="$PROJECT_DIR$/2441-별찍기-4/2441-별찍기-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/2448-별찍기-11/2448-별찍기-11.iml" filepath="$PROJECT_DIR$/2448-별찍기-11/2448-별찍기-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2504-괄호의 값/2504-괄호의 값.iml" filepath="$PROJECT_DIR$/2504-괄호의 값/2504-괄호의 값.iml" />
       <module fileurl="file://$PROJECT_DIR$/2577-숫자의 개수/2577-숫자의 개수.iml" filepath="$PROJECT_DIR$/2577-숫자의 개수/2577-숫자의 개수.iml" />
       <module fileurl="file://$PROJECT_DIR$/2581-소수/2581-소수.iml" filepath="$PROJECT_DIR$/2581-소수/2581-소수.iml" />
       <module fileurl="file://$PROJECT_DIR$/2675-문자열 반복/2675-문자열 반복.iml" filepath="$PROJECT_DIR$/2675-문자열 반복/2675-문자열 반복.iml" />
@@ -63,6 +65,7 @@
       <module fileurl="file://$PROJECT_DIR$/6064-카잉달력 쉬운판/6064-카잉달력 쉬운판.iml" filepath="$PROJECT_DIR$/6064-카잉달력 쉬운판/6064-카잉달력 쉬운판.iml" />
       <module fileurl="file://$PROJECT_DIR$/8393-합/8393-합.iml" filepath="$PROJECT_DIR$/8393-합/8393-합.iml" />
       <module fileurl="file://$PROJECT_DIR$/8958-OX퀴즈/8958-OX퀴즈.iml" filepath="$PROJECT_DIR$/8958-OX퀴즈/8958-OX퀴즈.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9012-괄호/9012-괄호.iml" filepath="$PROJECT_DIR$/9012-괄호/9012-괄호.iml" />
       <module fileurl="file://$PROJECT_DIR$/9020-골드바흐의 추측/9020-골드바흐의 추측.iml" filepath="$PROJECT_DIR$/9020-골드바흐의 추측/9020-골드바흐의 추측.iml" />
       <module fileurl="file://$PROJECT_DIR$/9498-시험 성적/9498-시험 성적.iml" filepath="$PROJECT_DIR$/9498-시험 성적/9498-시험 성적.iml" />
       <module fileurl="file://$PROJECT_DIR$/Algorithm1/Algorithm1.iml" filepath="$PROJECT_DIR$/Algorithm1/Algorithm1.iml" />
