@@ -13,3 +13,10 @@ Algorism
 
 ### BFS(Breadth First Search) 넓이 우선 탐색
 큐(Queue) 사용
+
+### 인접 행렬과 인접 리스트
+연결된 그래프를 행렬로 만들어 저장하는 방법과 리스트로 만들어 저장하는방법
+
+![1](https://user-images.githubusercontent.com/19161231/50076179-53d42100-0224-11e9-911a-5b0d1b580ef7.png)
+
+
