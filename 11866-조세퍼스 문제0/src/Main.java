@@ -12,13 +12,12 @@ public class Main {
         int n = Integer.parseInt(temp[0]);
         int m = Integer.parseInt(temp[1]);
         Queue<Integer> queue = new LinkedList<>();
-        ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 1; i <= n; i++)
             queue.add(i);
         int s = m - 1;
         int sum;
         writer.write("<");
-        while (true) {
+        while (!queue.isEmpty()) {
             builder.append(((LinkedList<Integer>) queue).remove(s)).append(", ");
             sum = s + m - 1;
             if (!queue.isEmpty()) {
