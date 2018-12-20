@@ -27,23 +27,6 @@ public class Main {
                     break;
                 }
             }
-            /*isExist = false;
-            for (j = i; j < m; j++) {
-                for (q = 0; q < index; q++) {
-                    if (value[j] == deque[q]) {
-                        isExist = true;
-                        break;
-                    }
-                }
-                if (isExist)
-                    break;
-            }
-            if (isExist) {
-
-            } else {
-                System.arraycopy(deque, index + 1, deque, 0, len - index - 1);
-                len -= (index + 1);
-            }*/
             System.arraycopy(deque, 0, tempArray, 0, index);
             System.arraycopy(deque, index, deque, 0, len - index);
             System.arraycopy(tempArray, 0, deque, len - index, index);
