@@ -1,11 +1,6 @@
 import java.io.*;
 
 public class Main {
-    public static int factorial(int n){
-        for (int i = 0; i < k; i++) {
-            psum *= (n - i);
-        }
-    }
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
