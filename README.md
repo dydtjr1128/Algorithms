@@ -19,4 +19,10 @@ Algorism
 
 ![1](https://user-images.githubusercontent.com/19161231/50076179-53d42100-0224-11e9-911a-5b0d1b580ef7.png)
 
+### 정렬 알고리즘 비교
+
+![sort](https://user-images.githubusercontent.com/19161231/50416513-74bff600-0864-11e9-9619-dcc9ba58d78e.png)
+
+출처 : http://proscada.ru/ctkbase.en/articles/q3750.html
+
 
