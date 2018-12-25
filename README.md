@@ -25,4 +25,6 @@ Algorism
 
 출처 : http://proscada.ru/ctkbase.en/articles/q3750.html
 
+카운팅 정렬 알고리즘은 정말 빠르지만 정수 만 정렬이 가능하다. 
+
 
