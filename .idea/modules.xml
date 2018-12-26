@@ -20,7 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/10989-수 정렬하기3/10989-수 정렬하기3.iml" filepath="$PROJECT_DIR$/10989-수 정렬하기3/10989-수 정렬하기3.iml" />
       <module fileurl="file://$PROJECT_DIR$/10998-AxB/10998-AxB.iml" filepath="$PROJECT_DIR$/10998-AxB/10998-AxB.iml" />
       <module fileurl="file://$PROJECT_DIR$/10998-A÷B/10998-A÷B.iml" filepath="$PROJECT_DIR$/10998-A÷B/10998-A÷B.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11050-이항 계수1/11050-이항 계수1.iml" filepath="$PROJECT_DIR$/11050-이항 계수1/11050-이항 계수1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11050-이항 계수 1/11050-이항 계수 1.iml" filepath="$PROJECT_DIR$/11050-이항 계수 1/11050-이항 계수 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11051-이항 계수 2/11051-이항 계수 2.iml" filepath="$PROJECT_DIR$/11051-이항 계수 2/11051-이항 계수 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/1110-더하기 사이클/1110-더하기 사이클.iml" filepath="$PROJECT_DIR$/1110-더하기 사이클/1110-더하기 사이클.iml" />
       <module fileurl="file://$PROJECT_DIR$/1152-단어의개수/1152-단어의개수.iml" filepath="$PROJECT_DIR$/1152-단어의개수/1152-단어의개수.iml" />
       <module fileurl="file://$PROJECT_DIR$/1157-단어 공부/1157-단어 공부.iml" filepath="$PROJECT_DIR$/1157-단어 공부/1157-단어 공부.iml" />
@@ -87,6 +88,7 @@
       <module fileurl="file://$PROJECT_DIR$/EX-피보나치 퍼포먼스(for,recursion)/EX-피보나치 퍼포먼스(for,recursion).iml" filepath="$PROJECT_DIR$/EX-피보나치 퍼포먼스(for,recursion)/EX-피보나치 퍼포먼스(for,recursion).iml" />
       <module fileurl="file://$PROJECT_DIR$/MakeEX/MakeEX.iml" filepath="$PROJECT_DIR$/MakeEX/MakeEX.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkHTML/checkHTML.iml" filepath="$PROJECT_DIR$/checkHTML/checkHTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/★11401-이항 계수 3/★11401-이항 계수 3.iml" filepath="$PROJECT_DIR$/★11401-이항 계수 3/★11401-이항 계수 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/방금그곡/방금그곡.iml" filepath="$PROJECT_DIR$/방금그곡/방금그곡.iml" />
     </modules>
   </component>
