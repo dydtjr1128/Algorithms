@@ -25,6 +25,11 @@ Algorism
 
 출처 : http://proscada.ru/ctkbase.en/articles/q3750.html
 
-카운팅 정렬 알고리즘은 정말 빠르지만 정수 만 정렬이 가능하다. 
+카운팅 정렬 알고리즘은 정말 빠르지만 정수 만 정렬이 가능하다는 단점이 있다. 
 
+### for-loop & recursion performance test
+
+![default](https://user-images.githubusercontent.com/19161231/50432682-d50f7000-0916-11e9-9b42-10de9e68de71.PNG)
+
+for 반복문의 실행 속도가 재귀함수에 비해 매우 빠르다는 것을 알 수있다.
 
