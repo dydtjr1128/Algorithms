@@ -14,8 +14,8 @@ public class Main {
 				W = Integer.parseInt(read[1]);
 				N = Integer.parseInt(read[2]);
 				
-				int q = N/H+1;//¸ò
-				int r = N%H;//³ª¸ÓÁö
+				int q = N/H+1;//ï¿½ï¿½
+				int r = N%H;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				if(r==0) {
 					r = H;
 					q--;
