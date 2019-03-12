@@ -1,0 +1,12 @@
+diff a/10250-ACM호텔/src/Main.java b/10250-ACM호텔/src/Main.java	(rejected hunks)
+@@ -14,8 +14,8 @@
+ 				W = Integer.parseInt(read[1]);
+ 				N = Integer.parseInt(read[2]);
+ 				
+-				int q = N/H+1;//��
+-				int r = N%H;//������
++				int q = N/H+1;//몫
++				int r = N%H;//나머지
+ 				if(r==0) {
+ 					r = H;
+ 					q--;
