@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15596-정수 N개의 합", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1712-손익분기점", "1712-손익분기점\1712-손익분기점.vcxproj", "{E50E2AB9-FCE0-4935-9037-B3F5FD7DBADB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1085-직사각형에서 탈출", "1085-직사각형에서 탈출\1085-직사각형에서 탈출.vcxproj", "{F30BAD21-069F-427C-9C92-AFB9DB33C58F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3009-네 번째 점", "3009-네 번째 점\3009-네 번째 점.vcxproj", "{A8101318-7A47-4C74-8627-C42FE3BDC43A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +125,22 @@ Global
 		{E50E2AB9-FCE0-4935-9037-B3F5FD7DBADB}.Release|x64.Build.0 = Release|x64
 		{E50E2AB9-FCE0-4935-9037-B3F5FD7DBADB}.Release|x86.ActiveCfg = Release|Win32
 		{E50E2AB9-FCE0-4935-9037-B3F5FD7DBADB}.Release|x86.Build.0 = Release|Win32
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Debug|x64.ActiveCfg = Debug|x64
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Debug|x64.Build.0 = Debug|x64
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Debug|x86.Build.0 = Debug|Win32
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Release|x64.ActiveCfg = Release|x64
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Release|x64.Build.0 = Release|x64
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Release|x86.ActiveCfg = Release|Win32
+		{F30BAD21-069F-427C-9C92-AFB9DB33C58F}.Release|x86.Build.0 = Release|Win32
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Debug|x64.ActiveCfg = Debug|x64
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Debug|x64.Build.0 = Debug|x64
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Debug|x86.Build.0 = Debug|Win32
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Release|x64.ActiveCfg = Release|x64
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Release|x64.Build.0 = Release|x64
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Release|x86.ActiveCfg = Release|Win32
+		{A8101318-7A47-4C74-8627-C42FE3BDC43A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
