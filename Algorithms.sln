@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10870-피보나치 수 5", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2447-별 찍기 - 10", "2447-별 찍기 - 10\2447-별 찍기 - 10.vcxproj", "{842D1356-2ABD-4F77-B756-8B812CADB6A0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceTest map vs vector", "PerformanceTest map vs vector\PerformanceTest map vs vector.vcxproj", "{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{842D1356-2ABD-4F77-B756-8B812CADB6A0}.Release|x64.Build.0 = Release|x64
 		{842D1356-2ABD-4F77-B756-8B812CADB6A0}.Release|x86.ActiveCfg = Release|Win32
 		{842D1356-2ABD-4F77-B756-8B812CADB6A0}.Release|x86.Build.0 = Release|Win32
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Debug|x64.ActiveCfg = Debug|x64
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Debug|x64.Build.0 = Debug|x64
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Debug|x86.Build.0 = Debug|Win32
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Release|x64.ActiveCfg = Release|x64
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Release|x64.Build.0 = Release|x64
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Release|x86.ActiveCfg = Release|Win32
+		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
