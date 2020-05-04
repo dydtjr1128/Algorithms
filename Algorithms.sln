@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2447-별 찍기 - 10", "244
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceTest map vs vector", "PerformanceTest map vs vector\PerformanceTest map vs vector.vcxproj", "{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceTest vector loop difference", "PerformanceTest vector loop difference\PerformanceTest vector loop difference.vcxproj", "{4AF0B251-18EB-4458-A705-C140B6438503}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Release|x64.Build.0 = Release|x64
 		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Release|x86.ActiveCfg = Release|Win32
 		{EC1A5B17-AC61-4A5C-85FD-53478306CCF6}.Release|x86.Build.0 = Release|Win32
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Debug|x64.ActiveCfg = Debug|x64
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Debug|x64.Build.0 = Debug|x64
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Debug|x86.ActiveCfg = Debug|Win32
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Debug|x86.Build.0 = Debug|Win32
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Release|x64.ActiveCfg = Release|x64
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Release|x64.Build.0 = Release|x64
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Release|x86.ActiveCfg = Release|Win32
+		{4AF0B251-18EB-4458-A705-C140B6438503}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

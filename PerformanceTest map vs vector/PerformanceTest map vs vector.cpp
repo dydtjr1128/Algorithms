@@ -18,17 +18,17 @@ int main() {
 		map.emplace(i, n);
 	}
 
-
 	auto s = std::chrono::system_clock::now();
 	c = 0;
+	std::cout << "vector loop : ";
 	for (const auto& n : vector) {
 		c = n;
 	}
 	std::cout << std::chrono::duration<double>(std::chrono::system_clock::now() - s).count() << "ms" << std::endl;
 
-
 	s = std::chrono::system_clock::now();
 	c = 0;
+	std::cout << "unordered_map loop : ";
 	for (const auto& f : map) {
 		c = f.second;
 	}
