@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceTest map vs vect
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceTest vector loop difference", "PerformanceTest vector loop difference\PerformanceTest vector loop difference.vcxproj", "{4AF0B251-18EB-4458-A705-C140B6438503}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p-완주하지 못한 선수", "p-완주하지 못한 선수\p-완주하지 못한 선수.vcxproj", "{07052653-A551-4C51-91A7-C24A5D2307B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{4AF0B251-18EB-4458-A705-C140B6438503}.Release|x64.Build.0 = Release|x64
 		{4AF0B251-18EB-4458-A705-C140B6438503}.Release|x86.ActiveCfg = Release|Win32
 		{4AF0B251-18EB-4458-A705-C140B6438503}.Release|x86.Build.0 = Release|Win32
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Debug|x64.ActiveCfg = Debug|x64
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Debug|x64.Build.0 = Debug|x64
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Debug|x86.ActiveCfg = Debug|Win32
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Debug|x86.Build.0 = Debug|Win32
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Release|x64.ActiveCfg = Release|x64
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Release|x64.Build.0 = Release|x64
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Release|x86.ActiveCfg = Release|Win32
+		{07052653-A551-4C51-91A7-C24A5D2307B9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
